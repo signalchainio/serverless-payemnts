@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
-    "build": "cross-env pushd functions/create-checkout && npm i && popd && npm i && npm run export",
+    "build": "cross-env pushd functions/create-checkout && npm i && popd && npm run export",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",

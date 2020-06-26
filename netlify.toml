@@ -1,4 +1,4 @@
 [build]
-  command = "npm run build"
+  command = "cross-env pushd functions/create-checkout && npm i && popd && npm run export"
   functions = "fucntions"
   publish = "__sapper__/export"
